@@ -121,8 +121,8 @@ servers:
         description: Base path for the Application Endpoint Discovery.
 tags:
   - name: Application Endpoint Discovery
-      description: |
-        Find the closest App Instance Endpoint to the user device.
+    description: |
+      Find the closest App Instance Endpoint to the user device.
 paths:
   /retrieve-closest-app-endpoints:
     post:
