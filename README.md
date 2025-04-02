@@ -1,6 +1,6 @@
 # Edge Cloud
 
-Repository to describe, develop, document, and test the EdgeCloud API family
+Repository to describe, develop, document, and test the EdgeCloud API family.
 
 ## Scope
 
