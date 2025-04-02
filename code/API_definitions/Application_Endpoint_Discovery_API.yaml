@@ -48,8 +48,7 @@ info:
     If the API is accessed directly from a device within the operator's network,
     initial requests may be made without explicit device identifiers. However,
     if this results in a `404 Not Found` error, subsequent requests should
-    include one of the identifiers to ensure accurate localization of the nearest
-    endpoint.
+    include one of the identifiers to ensure accurate localization of the nearest endpoint.
 
     # Authorization and authentication
 
@@ -120,11 +119,11 @@ servers:
         description: Base path for the Application Endpoint Discovery.
 tags:
     - name: Application Endpoint Discovery
-      description: |
+    description: |
         Find the closest App Instance Endpoint to the user device.
 paths:
- /retrieve-closest-app-endpoints:
-   post:
+  /retrieve-closest-app-endpoints:
+    post:
     security:
         - openId:
             - application-endpoint-discovery:app-endpoints:read
@@ -154,7 +153,7 @@ paths:
            to the user device identified in the request body. The response
            will include the App Instance with the minimum to the end user
            device identified in the request. There can be multiple application
-           instances returned in the response and the API consumer can choose 
+           instances returned in the response and the API consumer can choose
            the one that best suits their needs.
           headers:
              x-correlator:
