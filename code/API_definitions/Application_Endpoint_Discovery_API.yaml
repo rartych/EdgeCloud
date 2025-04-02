@@ -4,7 +4,7 @@ info:
   version: wip
   description: |
     # Connect to the Optimal Application Endpoint
-    ---
+
     # Overview
     The Application Endpoint Discovery API extends beyond the capabilities of
     the Simple Edge Discovery API by not only locating the nearest
@@ -43,8 +43,7 @@ info:
     * `Network-Access-Identifier`: A unique identifier provided by the network
     operator.
     In addition the following application-specific identifiers must be provided
-    * `ApplicationEndpointsId`: A unique identifier for the registered application
-    endpoint.
+    * `ApplicationEndpointsId`: A unique identifier for the registered application endpoint.
     * `AppId` : a unique identifier for the application
     If the API is accessed directly from a device within the operator's network,
     initial requests may be made without explicit device identifiers. However,
