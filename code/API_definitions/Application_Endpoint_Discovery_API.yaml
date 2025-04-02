@@ -240,7 +240,8 @@ components:
         applicationEndpointsId:
           $ref: "#/components/schemas/ApplicationEndpointsId"
         appId:
-          $ref: "#/components/schemas/AppId"    
+          $ref: "#/components/schemas/AppId"
+
     ApplicationEndpointsId:
       description: |
         A system-defined string identifier representing
