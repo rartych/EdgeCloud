@@ -529,11 +529,10 @@ components:
               value:
                 status: 401
                 code: UNAUTHENTICATED
-                message: >-
-                  Request not authenticated due to missing, invalid, or expired
-                  credentials.
+                message: "Request not authenticated due to missing, invalid, or expired credentials."
             GENERIC_401_AUTHENTICATION_REQUIRED:
-              description: 'New authentication is needed, authentication is no longer valid'
+              description: |
+                New authentication is needed, authentication is no longer valid
               value:
                 status: 401
                 code: AUTHENTICATION_REQUIRED
@@ -662,7 +661,8 @@ components:
                       - TOO_MANY_REQUESTS
           examples:
             GENERIC_429_QUOTA_EXCEEDED:
-              description: Request is rejected due to exceeding a business quota limit
+              description: |
+                Request is rejected due to exceeding a business quota limit
               value:
                 status: 429
                 code: QUOTA_EXCEEDED
