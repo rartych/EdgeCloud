@@ -1,8 +1,9 @@
 # Edge Cloud
 
-Repository to describe, develop, document, and test the EdgeCloud API family
+Repository to describe, develop, document, and test the EdgeCloud API family.
 
 ## Scope
+
 
 * Service APIs for “Edge Cloud” (see APIBacklog.md)
 * It provides the customer with the ability to:  
