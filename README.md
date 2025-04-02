@@ -4,6 +4,7 @@ Repository to describe, develop, document, and test the EdgeCloud API family.
 
 ## Scope
 
+
 * Service APIs for “Edge Cloud” (see APIBacklog.md)
 * It provides the customer with the ability to:  
   * Discover the closest edge cloud zone to a given device (https://github.com/camaraproject/SimpleEdgeDiscovery).
